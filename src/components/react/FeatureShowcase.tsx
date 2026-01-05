@@ -11,41 +11,49 @@ import headphonesImg from '@assets/photo-1486312338219-ce68d2c6f44d.jpg';
 const features = [
   {
     icon: Warehouse,
-    title: 'Advanced Warehousing',
-    description: 'Climate-controlled facilities with automated inventory systems and 24/7 security.',
+    title: 'Sistem Informasi Terintegrasi',
+    description:
+      'Pengembangan sistem informasi terintegrasi untuk mendukung operasional bisnis, manajemen data, dan pengambilan keputusan.',
     image: warehouseImg,
   },
   {
     icon: Truck,
-    title: 'Fast Transportation',
-    description: 'Multi-modal logistics network ensuring rapid delivery across all destinations.',
+    title: 'Platform E-Commerce',
+    description:
+      'Solusi e-commerce dengan manajemen produk, pembayaran digital, dan integrasi pengiriman untuk mendukung penjualan online.',
     image: truckImg,
   },
   {
     icon: Package,
-    title: 'Quality Manufacturing',
-    description: 'ISO-certified production with precision engineering and quality control.',
+    title: 'Landing Page Profesional',
+    description:
+      'Landing page dengan desain modern, performa cepat, dan struktur SEO optimal untuk meningkatkan konversi.',
     image: packageImg,
   },
   {
     icon: BarChart3,
-    title: 'Real-Time Analytics',
-    description: 'Complete supply chain visibility with advanced tracking and reporting.',
+    title: 'Point of Sale (POS)',
+    description:
+      'Sistem kasir digital untuk memantau transaksi, stok barang, dan laporan penjualan secara real-time.',
     image: barChart3Img,
   },
   {
     icon: Shield,
-    title: 'Secure Operations',
-    description: 'Industry-leading security protocols protecting your valuable assets.',
+    title: 'Sistem Informasi Kesehatan',
+    description:
+      'Pengembangan aplikasi sistem informasi kesehatan seperti klinik, puskesmas, dan rumah sakit dengan pengelolaan data yang aman.',
     image: shieldImg,
   },
   {
     icon: Headphones,
-    title: '24/7 Support',
-    description: 'Dedicated teams available around the clock to ensure seamless operations.',
+    title: 'Aplikasi Custom',
+    description:
+      'Pengembangan aplikasi sesuai kebutuhan bisnis, mulai dari sistem internal hingga aplikasi berbasis web dan mobile.',
     image: headphonesImg,
   },
 ];
+
+
 
 export default function FeatureShowcase() {
   return (
@@ -71,7 +79,7 @@ export default function FeatureShowcase() {
                 transition={{ duration: 0.4 }}
               />
               <div className="absolute inset-0 bg-linear-to-t from-slate-900 via-slate-900/50 to-transparent opacity-60" />
-              
+
               {/* Icon overlay */}
               <motion.div
                 initial={{ scale: 0 }}
