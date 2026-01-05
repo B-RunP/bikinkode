@@ -1,4 +1,4 @@
-# AstroFlow - Logistics & Manufacturing Website Template
+<!-- # AstroFlow - Logistics & Manufacturing Website Template
 
 A modern, professional Astro.js template for logistics, manufacturing, and supply chain companies. Built with React, Tailwind CSS, and TypeScript.
 
@@ -206,4 +206,4 @@ For questions or support, please open an issue on GitHub.
 
 ---
 
-Built with ❤️ using [Astro](https://astro.build)
+Built with ❤️ using [Astro](https://astro.build) -->
