@@ -1,11 +1,11 @@
 import { motion } from 'motion/react';
 import { Warehouse, Truck, Package, BarChart3, Shield, Headphones } from 'lucide-react';
 
-import warehouseImg from '@assets/photo-1553413077-190dd305871c.jpg';
-import truckImg from '@assets/photo-1601584115197-04ecc0da31d7.jpg';
-import packageImg from '@assets/photo-1581091226825-a6a2a5aee158.jpg';
-import barChart3Img from '@assets/photo-1551288049-bebda4e38f71.jpg';
-import shieldImg from '@assets/photo-1563013544-824ae1b704d3.jpg';
+import sistemInformasi from '@assets/sistem-informasi.jpg';
+import eComerce from '@assets/e-comerce.jpg';
+import landingPage from '@assets/landing-page.jpg';
+import pos from '@assets/pos.jpg';
+import rme from '@assets/rme.jpg';
 import headphonesImg from '@assets/photo-1486312338219-ce68d2c6f44d.jpg';
 
 const features = [
@@ -14,35 +14,35 @@ const features = [
     title: 'Sistem Informasi Terintegrasi',
     description:
       'Pengembangan sistem informasi terintegrasi untuk mendukung operasional bisnis, manajemen data, dan pengambilan keputusan.',
-    image: warehouseImg,
+    image: sistemInformasi,
   },
   {
     icon: Truck,
     title: 'Platform E-Commerce',
     description:
       'Solusi e-commerce dengan manajemen produk, pembayaran digital, dan integrasi pengiriman untuk mendukung penjualan online.',
-    image: truckImg,
+    image: eComerce,
   },
   {
     icon: Package,
     title: 'Landing Page Profesional',
     description:
       'Landing page dengan desain modern, performa cepat, dan struktur SEO optimal untuk meningkatkan konversi.',
-    image: packageImg,
+    image: landingPage,
   },
   {
     icon: BarChart3,
     title: 'Point of Sale (POS)',
     description:
       'Sistem kasir digital untuk memantau transaksi, stok barang, dan laporan penjualan secara real-time.',
-    image: barChart3Img,
+    image: pos,
   },
   {
     icon: Shield,
     title: 'Sistem Informasi Kesehatan',
     description:
       'Pengembangan aplikasi sistem informasi kesehatan seperti klinik, puskesmas, dan rumah sakit dengan pengelolaan data yang aman.',
-    image: shieldImg,
+    image: rme,
   },
   {
     icon: Headphones,
